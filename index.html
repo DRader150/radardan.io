@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>RadarDan · radardan.io</title>
+  <meta name="description" content="RadarDan (radardan.io) — Keep Dan on your radar. Veteran, builder, and collaborator on mining, off-grid systems, agriculture, and camper rentals." />
+  <style>
+    :root {
+      --bg: #0f1115;
+      --fg: #e8eaed;
+      --muted: #9aa0a6;
+      --line: #2a2f3a;
+      --accent: #7dd3a7;
+      --card: #171a21;
+      --focus: #8ab4f8;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.55;
+    }
+    main {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 3rem 1.25rem 4rem;
+    }
+    h1 {
+      font-size: 1.75rem;
+      font-weight: 650;
+      letter-spacing: -0.02em;
+      margin: 0 0 0.35rem;
+    }
+    h2 {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin: 2.5rem 0 0.85rem;
+      font-weight: 600;
+    }
+    p { margin: 0 0 1rem; color: var(--fg); }
+    .lede { color: var(--muted); margin-bottom: 0; }
+    .tagline {
+      margin: 0 0 0.55rem;
+      font-size: 1.05rem;
+      font-weight: 550;
+      color: var(--accent);
+      letter-spacing: -0.01em;
+    }
+    .domain { color: var(--muted); font-weight: 500; }
+    a { color: var(--accent); text-underline-offset: 0.15em; }
+    a:hover { text-decoration-thickness: 2px; }
+    ul.links {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    ul.links li {
+      border-top: 1px solid var(--line);
+      padding: 0.75rem 0;
+    }
+    ul.links li:last-child { border-bottom: 1px solid var(--line); }
+    ul.links a {
+      text-decoration: none;
+      font-weight: 550;
+    }
+    ul.links span {
+      display: block;
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-top: 0.2rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 0.65rem;
+      padding: 1rem 1.1rem;
+      margin: 0 0 0.75rem;
+    }
+    .card h3 {
+      margin: 0 0 0.35rem;
+      font-size: 1.05rem;
+      font-weight: 600;
+    }
+    .card p { margin: 0; color: var(--muted); font-size: 0.95rem; }
+    .card .invite {
+      margin-top: 0.55rem;
+      color: var(--fg);
+      font-size: 0.9rem;
+    }
+    form {
+      display: grid;
+      gap: 0.75rem;
+      margin-top: 0.25rem;
+    }
+    label {
+      display: grid;
+      gap: 0.35rem;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+    input, select, textarea {
+      width: 100%;
+      background: var(--bg);
+      color: var(--fg);
+      border: 1px solid var(--line);
+      border-radius: 0.45rem;
+      padding: 0.65rem 0.7rem;
+      font: inherit;
+    }
+    input:focus, select:focus, textarea:focus {
+      outline: 2px solid var(--focus);
+      outline-offset: 1px;
+    }
+    textarea { min-height: 7rem; resize: vertical; }
+    .hp {
+      position: absolute;
+      left: -10000px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+    button {
+      justify-self: start;
+      background: var(--accent);
+      color: #0b1210;
+      border: 0;
+      border-radius: 0.45rem;
+      padding: 0.7rem 1.1rem;
+      font: inherit;
+      font-weight: 650;
+      cursor: pointer;
+    }
+    button:hover { filter: brightness(1.05); }
+    .note {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 0.5rem;
+    }
+    footer {
+      margin-top: 3rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>RadarDan</h1>
+      <p class="tagline">Keep Dan on your radar.</p>
+      <p class="lede">Air Force veteran · builder · systems thinker · <span class="domain">radardan.io</span></p>
+    </header>
+
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About</h2>
+      <p>
+        I’m a disabled Air Force veteran based in Indiana. I’ve spent years in logistics
+        (including Amazon linehaul) and I’m building toward work that mixes intelligent systems,
+        aviation, and hands-on infrastructure — the kind of projects you can stand next to and improve.
+      </p>
+      <p>
+        I care about purchasing power, resilient utilities, and practical ownership over rented
+        platforms. When something useful is taking shape, I usually want collaborators more than
+        spectators.
+      </p>
+    </section>
+
+    <section id="links" aria-labelledby="links-heading">
+      <h2 id="links-heading">Links</h2>
+      <ul class="links">
+        <li>
+          <a href="https://drader150.github.io/The-Debt-Based-Monetary-System-for-Everyday-People/">Monetary explainer</a>
+          <span>How debt-based money shows up in everyday prices and purchasing power.</span>
+        </li>
+        <li>
+          <a href="https://github.com/DRader150">GitHub</a>
+          <span>Public write-ups and projects.</span>
+        </li>
+      </ul>
+    </section>
+
+
+    <section id="found" aria-labelledby="found-heading">
+      <h2 id="found-heading">Things I've found</h2>
+      <p class="lede" style="margin-bottom: 1rem;">
+        Projects I didn’t build but want more people to know about.
+      </p>
+      <ul class="links">
+        <li>
+          <a href="https://github.com/bilawalsidhu/gods-eye-view">God’s Eye View</a>
+          <span>
+            By Bilawal Sidhu — open-source globe app (MIT) that tracks vessels reporting location via AIS.
+            Runs as a local browser app via Node or Pinokio; not a packaged desktop EXE.
+          </span>
+        </li>
+      </ul>
+    </section>
+
+
+    <section id="help" aria-labelledby="help-heading">
+      <h2 id="help-heading">Maybe I Can Help...</h2>
+      <p class="lede" style="margin-bottom: 1rem;">
+        A few things I offer if one of them fits what you’re looking for.
+      </p>
+
+      <article class="card">
+        <h3>Drone photography</h3>
+        <p>Aerial stills and site overviews — useful for land, builds, and showing a place from above.</p>
+      </article>
+
+      <article class="card">
+        <h3>Local AI systems</h3>
+        <p>Help standing up AI that runs on your own hardware, including security hardening on top of locally-run setups.</p>
+      </article>
+
+      <article class="card">
+        <h3>Bitcoin mining setup help</h3>
+        <p>Design, HVAC, electrical requirements, and sound control — practical help getting a miner setup right before you spend twice.</p>
+      </article>
+    </section>
+
+    <section id="collab" aria-labelledby="collab-heading">
+      <h2 id="collab-heading">Cross paths</h2>
+      <p class="lede" style="margin-bottom: 1rem;">
+        If something here lines up with what you're working on, let's cross paths and trade notes.
+      </p>
+    </section>
+
+    <section id="working-on" aria-labelledby="working-heading">
+      <h2 id="working-heading">Working on</h2>
+      <p class="lede" style="margin-bottom: 1rem;">
+        Open to collaborating, scaling up, expanding, or just talking if you’re interested or have an idea.
+      </p>
+
+      <article class="card">
+        <h3>Bitcoin mining</h3>
+        <p>Heat-aware, practical mining setups — from a careful pilot to larger energy-aligned ideas.</p>
+        <p class="invite">Open to collaborate, scale, expand, or talk.</p>
+      </article>
+
+      <article class="card">
+        <h3>Off-grid utility setup</h3>
+        <p>Power, water, and resilient house systems that stay useful when the grid doesn’t cooperate.</p>
+        <p class="invite">Open to collaborate, scale, expand, or talk.</p>
+      </article>
+
+      <article class="card">
+        <h3>Agricultural ventures</h3>
+        <p>Land-and-work ideas that can grow without needing a megacorp playbook.</p>
+        <p class="invite">Open to collaborate, scale, expand, or talk.</p>
+      </article>
+
+      <article class="card">
+        <h3>Camper rentals</h3>
+        <p>Simple, honest rental inventory — useful for travelers and a clean ops learning loop.</p>
+        <p class="invite">Open to collaborate, scale, expand, or talk.</p>
+      </article>
+    </section>
+
+    <section id="contact" aria-labelledby="contact-heading">
+      <h2 id="contact-heading">Contact</h2>
+      <p class="lede">
+        No public email on this page. Pick a topic so messages arrive already sorted.
+      </p>
+
+      <!--
+        Wire-up (static hosting):
+        1) Create a Formspree / Basin / Getform form endpoint.
+        2) Replace action below with that endpoint URL.
+        3) Enable provider spam filters + rate limits; add Turnstile/hCaptcha if desired.
+        Honeypot field (_gotcha / website) stays to catch naive bots.
+      -->
+      <p class="note">Contact form coming soon.</p>
+    </section>
+
+    <footer>
+      radardan.io · © 2026 Daniel Rader
+    </footer>
+  </main>
+</body>
+</html>
